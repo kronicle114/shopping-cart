@@ -10,30 +10,44 @@
 
 <body>
     <header>
-        <h1>Welcome!</h1>
+        <h1>Shopping Cart</h1>
     </header>
     <main>
-        <div class="shopping-cart">
+        <div class="shopping-cart row col-6">
             <div class="shopping-bag">
-                <div class="img">
+                <div class="item-img">
+                    <h2>Brown Paper Bag</h2>
                     <img src="sb.jpg" alt="shopping bag img"/>
                 </div>
                 <div class="buttons">
-                    <span class="deletebtn"><button type="button">Delete</button></span>
+                    <span class="delete-btn"><button type="button">Delete</button></span>
                     <span class="likebtn"><button type="button">Like</button></span>
                 </div>
                 <div class="description">
-                    <p>Lorem ipsum</p>
-                    <span>Color</span>
+                    <span>This is a brown paper bag.</span>
+                    <span>Color: Brown</span>
                 </div>
                 <div class="quantity">
+                    <input type="text" name="changeQuantity" value="quantity">
                     <button class="plus-btn" type="button" name="button">
-                        <img src="" alt="" />
+                        <img src="plusIcon.svg" alt="Plus icon to add item quantity" />
                     </button>
-                    <input type="text" name="changeQuantity" value="number">
                     <button class="minus-btn" type="button" name="button">
-                        <img src="" alt="" />
+                        <img src="minusIcon.svg" alt="Minus icon to decrease item quantity" />
                     </button>
+                </div>
+                <div class="orderSummary">
+                    <div class="orderDetails">
+                        <h2>Order Summary:</h2>
+                        <ul>
+                            <li>Items:</li>
+                            <li>Shipping & Handling:</li>
+                            <li>Taxes:</li>
+                            <li>Total:</li>
+                        </ul>
+                        <hr>
+                        <button class="order-btn" type="submit" name="button">Place Order</button>
+                    </div>
                 </div>
         </div>
     </main>
