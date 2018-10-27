@@ -9,10 +9,10 @@ Each item must have:
 * 2 buttons (+) (-) to adjust quantity of product
 * must list the total price of item
 
-<img align="right" width="300" src="fork.png" alt="fork this repository" />
-
 ## Prerequisites
 If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
+
+<img align="right" width="300" src="fork.png" alt="fork this repository" />
 
 ## Fork this repository
 
@@ -55,7 +55,7 @@ For example:
 ```
 git checkout -b add-new-items
 ```
-> Note: >>The branch name doesn't matter, but ideally you want the name to match the purpose of the branch you just created
+> Note: The branch name doesn't matter, but ideally you want the name to match the purpose of the branch you just created
 
 ## Make changes and commit it 
 Open the files you want to change. For example, if you want to add a new item, open `index.html` in your favorite editor. Once you finish editing, save the document. Add those changes to the branch you just created using the `git add` command:
