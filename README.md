@@ -11,6 +11,7 @@ Each item must have:
 
 <img align="right" width="300" src="fork.png" alt="fork this repository" />
 
+## Prerequisites
 If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
 
 ## Fork this repository
@@ -55,3 +56,33 @@ For example:
 git checkout -b add-new-items
 ```
 > Note: >>The branch name doesn't matter, but ideally you want the name to match the purpose of the branch you just created
+
+## Make changes and commit it 
+Open the files you want to change. For example, if you want to add a new item, open `index.html` in your favorite editor. Once you finish editing, save the document. Add those changes to the branch you just created using the `git add` command:
+
+```
+git add .
+```
+> Note: The "." is shortcut for adding all changes. If you just want to add a specific file use `git add <name-of-file>`
+
+Then commit those changes using the git commit command:
+
+```
+git commit -m "Added new items"
+```
+> Note: Insert whatever comments you have inside the quotation marks ""
+
+## Push changes to GitHub
+Push your changes using the command git push:
+
+```
+git push origin <add-your-branch-name>
+```
+> Note: replace <add-your-branch-name> with the name of the branch you created earlier
+
+For example:
+```
+git push origin add-new-items
+```
+
+Congratulations! You're done! 
