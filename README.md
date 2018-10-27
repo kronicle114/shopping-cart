@@ -1,11 +1,6 @@
 # Shopping Cart App
 An interactive shopping cart application using HTML, CSS, and JavaScript.
 
-## Installing
-* Clone the repo 
-    * In your terminal, navigate to the directory you want the shopping cart app to be saved by typing `cd <directory_name>`. Then press Enter
-    *  Clone the repo by 
-
 ## Project 
 Each item must have:
 * A title, img, item description
@@ -48,22 +43,15 @@ where `this-is-you` is your GitHub username. Here you're copying the contents of
 
 ## Create a branch 
 In your local terminal, change to the repository directory:
-
 ```
 cd shopping-cart
-
 ```
 Create a branch using the `git checkout` command:
-
 ```
 git checkout -b <add-new-branch-name>
-
 ```
 For example:
-
 ```
 git checkout -b add-new-items
-
 ```
-> Note: 
->> The branch name doesn't matter, but it should make sense to name it to match what the purpose of the branch is
+> Note: >>The branch name doesn't matter, but ideally you want the name to match the purpose of the branch you just created
