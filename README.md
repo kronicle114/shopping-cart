@@ -1,6 +1,69 @@
-- create container div class="shopping-cart" with title & 3 items
-- items must have 2 buttons (delete & favorite)
-- product img
-- button to adjust quantity of product
-- total price
+# Shopping Cart App
+An interactive shopping cart application using HTML, CSS, and JavaScript.
 
+## Installing
+* Clone the repo 
+    * In your terminal, navigate to the directory you want the shopping cart app to be saved by typing `cd <directory_name>`. Then press Enter
+    *  Clone the repo by 
+
+## Project 
+Each item must have:
+* A title, img, item description
+* 1 button to delete the item from the shopping cart
+* 1 button to favorite the item
+* 2 buttons (+) (-) to adjust quantity of product
+* must list the total price of item
+
+<img align="right" width="300" src="fork.png" alt="fork this repository" />
+
+If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
+
+## Fork this repository
+
+On this page, fork this repo by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+
+## Clone the repository
+
+<img align="right" width="300" src="clone.png" alt="clone this repository" />
+
+Now clone the forked repo to your machine. Go to your GitHub account, open the forked repo, click on the clone button and then click the *copy to clipboard* icon.
+
+Open a terminal and navigate to the directory you want the shopping-cart app to be saved by typing `cd <directory_name>`. Then press Enter.  
+
+Then run the following git command:
+
+```
+git clone "url you just copied"
+```
+where "url you just copied" (without the quote marks) is the url to this repository (your fork of this project). Hit **Enter** to run the command. 
+
+<img align="right" width="300" src="copy.png" alt="copy URL to clipboard" />
+
+For example:
+```
+git clone https://github.com/this-is-you/shopping-cart.git
+
+```
+where `this-is-you` is your GitHub username. Here you're copying the contents of the shopping-cart repository in GitHub to your computer.
+
+## Create a branch 
+In your local terminal, change to the repository directory:
+
+```
+cd shopping-cart
+
+```
+Create a branch using the `git checkout` command:
+
+```
+git checkout -b <add-new-branch-name>
+
+```
+For example:
+
+```
+git checkout -b add-new-items
+
+```
+> Note: 
+>> The branch name doesn't matter, but it should make sense to name it to match what the purpose of the branch is
