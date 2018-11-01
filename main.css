@@ -37,6 +37,10 @@ body {
     display: flex;
 }
 
+#item-title {
+    font-weight: bold;
+}
+
 .item-img {
     width: 60%;
     height: auto;
